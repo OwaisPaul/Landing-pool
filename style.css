@@ -7,6 +7,7 @@
     
 }   
 
+
 #logo {
     margin-left: 185px;
     font-size: 34px;
@@ -71,6 +72,7 @@ h1 {
     height: auto;
     margin-left: 0;
     margin-right: 200px;
+    border-radius: 25px;
 }
 .II-divs{
     border: 5px solid rgb(60, 114, 242);
@@ -120,9 +122,8 @@ h2{
     margin-left: 500px;
 }
 
-#sec4 {
+#sec4{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding: 20px;
     align-items: center;
@@ -133,17 +134,24 @@ h2{
     color: white;
     padding-top: 5px;
 }
+.fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #last-btn {
+    display: flex;
     padding: 10px 20px; 
     font-size: 18px;
     color: #F9FAF8;
     background-color: #5d93e9;
-    border: 4px solid white;
     cursor: pointer;
     border-radius: 8px;
-    margin-left: 600px;
-    margin-top: 50px;
+    margin-left: 450px;
+    margin-top: 0px;
+    border: none;
     
 
 }
@@ -159,6 +167,7 @@ h2{
 }
 
 #last-txt {
-    font-weight: 25;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
